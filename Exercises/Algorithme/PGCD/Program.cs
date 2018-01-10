@@ -12,11 +12,23 @@ namespace PGCD
         static void Main(string[] args)
         {
             //PGCD.calculPGCD();
+            Console.WriteLine("Avant trier");
+            int[] tabEntiers = new int[] { 45, 32, 15, -1, -8 };
+            TriTableau.AfficherTableau(tabEntiers);
 
-            int[] tabEntiers = new int[] {45,32,15,-1,-8 };
+            Console.WriteLine("Apres trier");
+
             TriTableau.TrierTableau(tabEntiers);
             for (int i =0;i<tabEntiers.Length;i++)
                 Console.WriteLine(tabEntiers[i]);
+            Console.ReadKey();
+
+            string[] tabChaine = new string[] {"jaun","vert","rouge","blanc","bleu" };
+            TriTableau.TrierChaine(tabChaine);
+            for (int i = 0; i < tabChaine.Length; i++)
+                Console.WriteLine(tabChaine);
+            Console.ReadKey();
+
         }
     }
 }
