@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89A89638-FF23-456C-A5BC-34C06118D295}</ProjectGuid>
+    <ProjectGuid>{2BFF85E0-2636-41C1-86AF-3DAEACF7D81C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Algorithmes</RootNamespace>
-    <AssemblyName>Algorithmes</AssemblyName>
+    <RootNamespace>TriTableau</RootNamespace>
+    <AssemblyName>TriTableau</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PGCD.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TriTableau.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
